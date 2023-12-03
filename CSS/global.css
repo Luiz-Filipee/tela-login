@@ -1,0 +1,79 @@
+:root{
+    --bg-primary: #9198e5;
+    --bg-form: #fff;
+    --btn-color: #ffa500;
+    --txt-login: #993399;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255,5,100);
+    background: linear-gradient(153deg, rgba(255,5,100,1) 0%, rgba(83,0,242,1) 100%);
+}
+
+.card {
+    background-color: #fff;
+    padding: 34px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0px rgba(0,0,0,0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form h2 {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.campo {
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.campo::placeholder{
+    color: #666;
+
+}
+
+.campo:focus{
+    border-color: #ff05b4;
+}
+
+.btn{
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #ff05b4;
+    cursor: pointer;
+    transition: all linear 190ms;
+    text-align: center;
+}
+
+.btn:hover{
+    transform: scale(1.04);
+    background-color: #ff05b4;
+}
